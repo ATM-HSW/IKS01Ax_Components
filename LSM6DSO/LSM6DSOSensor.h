@@ -110,6 +110,7 @@ public:
     virtual int get_g_fs(float *full_scale);
     virtual int set_x_fs(float full_scale);
     virtual int set_g_fs(float full_scale);
+  	virtual int enable(void);
     int enable_x(void);
     int enable_g(void);
     int disable_x(void);

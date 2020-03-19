@@ -849,6 +849,17 @@ int LSM6DSOSensor::get_g_axes(int32_t *angular_rate)
     return 0;
 }
 
+/**
+ * @brief  Enable both the LSM6DSO accelerometer and the LSM6DSO gyroscope sensor
+ * @retval 0 in case of success, an error code otherwise
+ */
+int LSM6DSOSensor::enable(void) {
+	if(!enable_x() && !enable_g())
+		return 0;
+	else
+		return 1;
+}
+
 
 /**
  * @brief  Get the LSM6DSO register value

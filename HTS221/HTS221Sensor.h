@@ -64,7 +64,7 @@ public:
     virtual int read_id(uint8_t *id);
     virtual int get_humidity(float *pfData);
     virtual int get_temperature(float *pfData);
-    int enable(void);
+    virtual int enable(void);
     int disable(void);
     int reset(void);
     int get_odr(float *odr);

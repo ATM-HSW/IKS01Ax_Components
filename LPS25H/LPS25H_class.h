@@ -53,7 +53,7 @@ class LPS25H : public PressureSensor, public TempSensor {
 	/** Constructor
 	 * @param[in] i2c device I2C to be used for communication
 	 */
-        LPS25H(DevI2C &i2c) : PressureSensor(), TempSensor(), dev_i2c(i2c) {
+  LPS25H(DevI2C &i2c) : PressureSensor(), TempSensor(), dev_i2c(i2c) {
 		LPS25H_SlaveAddress = LPS25H_ADDRESS_HIGH;
 	}
 	
@@ -76,6 +76,10 @@ class LPS25H : public PressureSensor, public TempSensor {
 
 	virtual int read_id(uint8_t *p_id) {
 		return LPS25H_ReadID(p_id);
+	}
+
+	virtual int enable(void) {
+		return 0;
 	}
 
 	/**
