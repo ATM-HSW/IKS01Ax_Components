@@ -2,10 +2,10 @@ This firmware package includes Components Device Drivers for STMicroelectronics'
 
 The expansion board is basically featuring four IPs:
 
-a HTS221 Relative Humidity and Temperature Sensor,
-a LIS3MDL 3-Axis Magnetometer,
-a LPS25H MEMS Pressure Sensor, and
-a LSM6DS0 3D Accelerometer and 3D Gyroscope
+* HTS221 Relative Humidity and Temperature Sensor,
+* LIS3MDL 3-Axis Magnetometer,
+* LPS25H MEMS Pressure Sensor, and
+* LSM6DS0 3D Accelerometer and 3D Gyroscope
 
 
 
@@ -13,10 +13,10 @@ This firmware package includes Components Device Drivers for STMicroelectronics'
 
 The expansion board is basically featuring four IPs:
 
-a HTS221 Relative Humidity and Temperature Sensor,
-a LSM303AGR 3-Axis Magnetometer and 3-Axis Accelerometer
-a LPS22HB MEMS Pressure and Temperature Sensor
-a LSM6DSL 3-Axis Accelerometer and 3-Axis Gyroscope
+* HTS221 Relative Humidity and Temperature Sensor,
+* LSM303AGR 3-Axis Magnetometer and 3-Axis Accelerometer
+* LPS22HB MEMS Pressure and Temperature Sensor
+* LSM6DSL 3-Axis Accelerometer and 3-Axis Gyroscope
 
 
 
@@ -24,9 +24,9 @@ This firmware package includes Components Device Drivers for STMicroelectronics'
 
 The expansion board is basically featuring 6 IPs:
 
-a HTS221 Relative Humidity and Temperature Sensor,
-a LIS2MDL 3-Axis Magnetometer
-a LIS2DW12 3-Axis Accelerometer
-a LPS22HH MEMS Pressure and Temperature Sensor
-a LSM6DSO 3-Axis Accelerometer and 3-Axis Gyroscope
-a STTS751 MEMS Temperature Sensor
+* HTS221 Relative Humidity and Temperature Sensor,
+* LIS2MDL 3-Axis Magnetometer
+* LIS2DW12 3-Axis Accelerometer
+* LPS22HH MEMS Pressure and Temperature Sensor
+* LSM6DSO 3-Axis Accelerometer and 3-Axis Gyroscope
+* STTS751 MEMS Temperature Sensor
